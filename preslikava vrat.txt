@@ -1,0 +1,469 @@
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -p 8080:80 --name sportnodrustvo-container -d sportnodrustvo:latest
+d965f208683615e6c2d2b90ebafa5ed2d5dd5d7bb4597d2097bfa8914d237c66
+
+#ukaz za reslikavo vrat je zgoraj
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\david>cd C:\Users\david\Documents\GitHub\sportnoDrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker build -t sportnodrustvo:latest .
+[+] Building 52.7s (18/18) FINISHED                                                                      docker:default
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 807B                                                                               0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:7.0                                                  0.6s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:7.0                                               0.6s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [internal] load build context                                                                                  1.6s
+ => => transferring context: 61.90MB                                                                               1.6s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:7.0@sha256:c88ac232a58628dacb5d0ccbf0b8fcbf7c97ef24087e449d2  10.3s
+ => => resolve mcr.microsoft.com/dotnet/aspnet:7.0@sha256:c88ac232a58628dacb5d0ccbf0b8fcbf7c97ef24087e449d296616b  0.0s
+ => => sha256:c88ac232a58628dacb5d0ccbf0b8fcbf7c97ef24087e449d296616b938f86528 1.79kB / 1.79kB                     0.0s
+ => => sha256:1c19724330da9f9d7bf1581bc65aeb34e989efe3cf05361e5ab4217a1f8dc7ae 1.37kB / 1.37kB                     0.0s
+ => => sha256:10a230a6f82858137c20534e552beecc2c6356596a641bba9d9904beae0a7df5 2.36kB / 2.36kB                     0.0s
+ => => sha256:5d0aeceef7eeb53c3f853fb229ea7fd13a5a56f4ba371ca48f0477493046b702 31.42MB / 31.42MB                   6.7s
+ => => sha256:7c2bfda75264da4277b3ac09b0e1258e48c8153c5281e10643a577e5e36a1f7c 15.17MB / 15.17MB                   2.2s
+ => => sha256:236a5cfe4c4a4851c62bebfb18e8f9addafec31bba4b7f2fa78d0427b84dc107 32.46MB / 32.46MB                   9.4s
+ => => sha256:b5fdcec42f82150bdb83e7c7e803fd6d0dd383c404d87a416eb348669034998f 154B / 154B                         2.3s
+ => => sha256:1c9675d232b6588f0021e0b93feac425b8da7e72ed78d5eaea3091435eb98020 10.12MB / 10.12MB                   4.8s
+ => => extracting sha256:5d0aeceef7eeb53c3f853fb229ea7fd13a5a56f4ba371ca48f0477493046b702                         45.2s
+ => => extracting sha256:7c2bfda75264da4277b3ac09b0e1258e48c8153c5281e10643a577e5e36a1f7c                         43.6s
+ => => extracting sha256:1c9675d232b6588f0021e0b93feac425b8da7e72ed78d5eaea3091435eb98020                         42.0s
+ => [build 1/7] FROM mcr.microsoft.com/dotnet/sdk:7.0@sha256:6f1c4809657f4a415401596625c670bb6705346fee7e89c8cbd  34.1s
+ => => resolve mcr.microsoft.com/dotnet/sdk:7.0@sha256:6f1c4809657f4a415401596625c670bb6705346fee7e89c8cbdac567a0  0.0s
+ => => sha256:843e4c914a88bb657ab5e1139995b7c4df60687671cd3b04720da5d8b067b3a7 2.01kB / 2.01kB                     0.0s
+ => => sha256:5ea4e07775d5550bbb17c9436081fbb5efbcb3cb3d555f0edb80221601c5db77 5.31kB / 5.31kB                     0.0s
+ => => sha256:5d0aeceef7eeb53c3f853fb229ea7fd13a5a56f4ba371ca48f0477493046b702 31.42MB / 31.42MB                   6.7s
+ => => sha256:6f1c4809657f4a415401596625c670bb6705346fee7e89c8cbdac567a022efdf 1.79kB / 1.79kB                     0.0s
+ => => sha256:7c2bfda75264da4277b3ac09b0e1258e48c8153c5281e10643a577e5e36a1f7c 15.17MB / 15.17MB                   2.2s
+ => => sha256:236a5cfe4c4a4851c62bebfb18e8f9addafec31bba4b7f2fa78d0427b84dc107 32.46MB / 32.46MB                   9.4s
+ => => sha256:b5fdcec42f82150bdb83e7c7e803fd6d0dd383c404d87a416eb348669034998f 154B / 154B                         2.3s
+ => => sha256:1c9675d232b6588f0021e0b93feac425b8da7e72ed78d5eaea3091435eb98020 10.12MB / 10.12MB                   4.8s
+ => => sha256:034dc5a33ca18ace925240fdc040ce72a6c738048551054341d4e54c63943e5a 25.37MB / 25.37MB                  10.9s
+ => => extracting sha256:5d0aeceef7eeb53c3f853fb229ea7fd13a5a56f4ba371ca48f0477493046b702                          1.5s
+ => => sha256:5b001d5bc7aa6ab250c45c5ce170f82072dab2f4531b71a1f1ce1a81a6c7d994 180.73MB / 180.73MB                30.5s
+ => => extracting sha256:7c2bfda75264da4277b3ac09b0e1258e48c8153c5281e10643a577e5e36a1f7c                          0.3s
+ => => extracting sha256:236a5cfe4c4a4851c62bebfb18e8f9addafec31bba4b7f2fa78d0427b84dc107                          0.5s
+ => => sha256:b6f972f121616f60d0a864ff61d2d1f2fd05a39c8bd1da1e6c54a6692f34dfd3 14.00MB / 14.00MB                  12.5s
+ => => extracting sha256:b5fdcec42f82150bdb83e7c7e803fd6d0dd383c404d87a416eb348669034998f                          0.0s
+ => => extracting sha256:1c9675d232b6588f0021e0b93feac425b8da7e72ed78d5eaea3091435eb98020                          0.1s
+ => => extracting sha256:034dc5a33ca18ace925240fdc040ce72a6c738048551054341d4e54c63943e5a                          0.9s
+ => => extracting sha256:5b001d5bc7aa6ab250c45c5ce170f82072dab2f4531b71a1f1ce1a81a6c7d994                          3.1s
+ => => extracting sha256:b6f972f121616f60d0a864ff61d2d1f2fd05a39c8bd1da1e6c54a6692f34dfd3                          0.3s
+ => [base 2/2] WORKDIR /app                                                                                        0.2s
+ => [final 1/2] WORKDIR /app                                                                                       0.0s
+ => [build 2/7] WORKDIR /src                                                                                       0.4s
+ => [build 3/7] COPY [sportnoDrustvo.csproj, ./]                                                                   0.0s
+ => [build 4/7] RUN dotnet restore "sportnoDrustvo.csproj"                                                         8.8s
+ => [build 5/7] COPY . .                                                                                           0.2s
+ => [build 6/7] WORKDIR /src                                                                                       0.1s
+ => [build 7/7] RUN dotnet build "sportnoDrustvo.csproj" -c Release -o /app/build                                  5.5s
+ => [publish 1/1] RUN dotnet publish "sportnoDrustvo.csproj" -c Release -o /app/publish                            2.6s
+ => [final 2/2] COPY --from=publish /app/publish .                                                                 0.1s
+ => exporting to image                                                                                             0.1s
+ => => exporting layers                                                                                            0.1s
+ => => writing image sha256:fa979198e0bdc2e6a91ee249e279eb3a01390abfb107806103d3b71f21de804d                       0.0s
+ => => naming to docker.io/library/sportnodrustvo:latest                                                           0.0s
+
+View build details: docker-desktop://dashboard/build/default/default/hs6xzum3a3q7baqco6ndu67qq
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -p 8080:80 --name sportnodrustvo-container -d sportnodrustvo:latest
+d965f208683615e6c2d2b90ebafa5ed2d5dd5d7bb4597d2097bfa8914d237c66
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY       TAG       IMAGE ID       CREATED          SIZE
+sportnodrustvo   latest    fa979198e0bd   10 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name moj-sportnodrustvo-container sportnodrustvo:latest
+e18ea42ff5438255263dede89a1f3639dfdb4943a4ea3cc725c4d895328e13ce
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker pull sportnodrustvo:latest
+Error response from daemon: pull access denied for sportnodrustvo, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker build -t sportnodrustvo:latest .
+[+] Building 38.5s (18/18) FINISHED                                                                      docker:default
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 582B                                                                               0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:6.0                                                  0.5s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:6.0                                               0.5s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [build 1/7] FROM mcr.microsoft.com/dotnet/sdk:6.0@sha256:fdac9ba57a38ffaa6494b93de33983644c44d9e491e4e312f35  22.3s
+ => => resolve mcr.microsoft.com/dotnet/sdk:6.0@sha256:fdac9ba57a38ffaa6494b93de33983644c44d9e491e4e312f35ddf926c  0.0s
+ => => sha256:fdac9ba57a38ffaa6494b93de33983644c44d9e491e4e312f35ddf926c55a073 1.79kB / 1.79kB                     0.0s
+ => => sha256:950196e58fe38d437496132b6e5e1335c768e968a856157cf8fa1d963c6ceaee 31.66MB / 31.66MB                   6.4s
+ => => sha256:819f3b5e3ba4f3b4baff82392c198ffa8b86d61f1f81071fa3cd91288e3feb3e 9.47MB / 9.47MB                     1.3s
+ => => sha256:dffa62c635b5e218ca33f7691ccaea4ede75526ca112f856eecacab706c68491 2.01kB / 2.01kB                     0.0s
+ => => sha256:694fe26693f8bec3544280ca47d4aa2856caf65325d0fc455e5ac1240a3fe6f2 5.31kB / 5.31kB                     0.0s
+ => => sha256:ecf3c05ee2f667bb83b7782b0e554d187d8abe2beead0f9a4f19c0243c0f27fb 154B / 154B                         0.3s
+ => => sha256:19984358397df9ba5923a5712833254b2070099b4644fbd735f0de23944876e6 25.37MB / 25.37MB                   7.6s
+ => => sha256:d99f9f96f040cf0c5e8611dc68205a966d96d48ff6ab935af572ecffe8fe9554 148.63MB / 148.63MB                19.1s
+ => => extracting sha256:950196e58fe38d437496132b6e5e1335c768e968a856157cf8fa1d963c6ceaee                          0.4s
+ => => sha256:d6d23fc1b8fc7f5055873ff538e6f74887f2df55cee6e8f803de7ab6c0eb3dbc 13.70MB / 13.70MB                   9.2s
+ => => extracting sha256:ecf3c05ee2f667bb83b7782b0e554d187d8abe2beead0f9a4f19c0243c0f27fb                          0.0s
+ => => extracting sha256:819f3b5e3ba4f3b4baff82392c198ffa8b86d61f1f81071fa3cd91288e3feb3e                          0.2s
+ => => extracting sha256:19984358397df9ba5923a5712833254b2070099b4644fbd735f0de23944876e6                          1.0s
+ => => extracting sha256:d99f9f96f040cf0c5e8611dc68205a966d96d48ff6ab935af572ecffe8fe9554                          2.7s
+ => => extracting sha256:d6d23fc1b8fc7f5055873ff538e6f74887f2df55cee6e8f803de7ab6c0eb3dbc                          0.3s
+ => [internal] load build context                                                                                  0.1s
+ => => transferring context: 92.60kB                                                                               0.1s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:894c9f49ae9a72b64e61ef6071a33b6b616d0cf48ef25c83c4  7.2s
+ => => resolve mcr.microsoft.com/dotnet/aspnet:6.0@sha256:894c9f49ae9a72b64e61ef6071a33b6b616d0cf48ef25c83c4cf26d  0.0s
+ => => sha256:325c2b06f2f8efc6091d5f4ed6798c48bea0327d4c0a94f846d0d5de2b5e9c79 1.37kB / 1.37kB                     0.0s
+ => => sha256:9dace3b3a992d1380ceb80449bf7c8251953daf76c160a2f24f523ee41bf883d 2.36kB / 2.36kB                     0.0s
+ => => sha256:950196e58fe38d437496132b6e5e1335c768e968a856157cf8fa1d963c6ceaee 31.66MB / 31.66MB                   6.4s
+ => => sha256:ecf3c05ee2f667bb83b7782b0e554d187d8abe2beead0f9a4f19c0243c0f27fb 154B / 154B                         0.3s
+ => => sha256:819f3b5e3ba4f3b4baff82392c198ffa8b86d61f1f81071fa3cd91288e3feb3e 9.47MB / 9.47MB                     1.3s
+ => => sha256:894c9f49ae9a72b64e61ef6071a33b6b616d0cf48ef25c83c4cf26d185f37565 1.79kB / 1.79kB                     0.0s
+ => => extracting sha256:950196e58fe38d437496132b6e5e1335c768e968a856157cf8fa1d963c6ceaee                         31.5s
+ => => extracting sha256:ecf3c05ee2f667bb83b7782b0e554d187d8abe2beead0f9a4f19c0243c0f27fb                         31.0s
+ => => extracting sha256:819f3b5e3ba4f3b4baff82392c198ffa8b86d61f1f81071fa3cd91288e3feb3e                         31.0s
+ => [base 2/2] WORKDIR /app                                                                                        0.1s
+ => [final 1/2] WORKDIR /app                                                                                       0.1s
+ => [build 2/7] WORKDIR /src                                                                                       0.4s
+ => [build 3/7] COPY [sportnoDrustvo.csproj, ./]                                                                   0.0s
+ => [build 4/7] RUN dotnet restore "sportnoDrustvo.csproj"                                                         7.5s
+ => [build 5/7] COPY . .                                                                                           0.2s
+ => [build 6/7] WORKDIR /src                                                                                       0.0s
+ => [build 7/7] RUN dotnet build "sportnoDrustvo.csproj" -c Release -o /app/build                                  4.8s
+ => [publish 1/1] RUN dotnet publish "sportnoDrustvo.csproj" -c Release -o /app/publish                            2.4s
+ => [final 2/2] COPY --from=publish /app/publish .                                                                 0.1s
+ => exporting to image                                                                                             0.1s
+ => => exporting layers                                                                                            0.1s
+ => => writing image sha256:c471660429c17270e3a88f8dfe48fdbb9b54a94acdcf066aa213582c94d60069                       0.0s
+ => => naming to docker.io/library/sportnodrustvo:latest                                                           0.0s
+
+View build details: docker-desktop://dashboard/build/default/default/cp1f2l5nuo47qna4a4j1mpq89
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name moj-sportnodrustvo-container sportnodrustvo:latest
+docker: Error response from daemon: Conflict. The container name "/moj-sportnodrustvo-container" is already in use by container "e18ea42ff5438255263dede89a1f3639dfdb4943a4ea3cc725c4d895328e13ce". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name moj-sportnodrustvo-container2 sportnodrustvo:latest
+78af8d901f7d21fad3df99f1c9a0d7f75b4f625323752da6da8b0c7aafeeaa64
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name prvi-portnodrustvo-container sportnodrustvo:latest
+acc5907ce7681a88c3b4dfbcbe54f82e772e9106a44e96185a9060cb5e50fd62
+docker: Error response from daemon: driver failed programming external connectivity on endpoint prvi-portnodrustvo-container (f55e596e6ea4ad5a7fb73f7ae8a1d788ce0d882892ba9e1fc7601b4b33141680): Bind for 0.0.0.0:8080 failed: port is already allocated.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name prvi-portnodrustvo-container sportnodrustvo:latest
+c19dfee0fa3c95a13f197bd31ddebd5da942c36439446785e6e57becb05cea55
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY       TAG       IMAGE ID       CREATED          SIZE
+sportnodrustvo   latest    c471660429c1   23 minutes ago   250MB
+<none>           <none>    fa979198e0bd   43 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker tag lokalni_image:tag realfoodie/sportnodrustvo:tagname
+Error response from daemon: No such image: lokalni_image:tag
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker tag sportnodrustvo:latest foodie/sportnodrustvo:tagname
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker login -u realfoodie
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or password
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker login -u realfoodie
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or password
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker login -u realfoodie
+Password:
+Error response from daemon: Get "https://registry-1.docker.io/v2/": unauthorized: incorrect username or password
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker login -u realfoodie
+Password:
+Login Succeeded
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:tagname
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker tag sportnodrustvo:latest foodie/sportnodrustvo:latest
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+sportnodrustvo          latest    c471660429c1   32 minutes ago   250MB
+foodie/sportnodrustvo   latest    c471660429c1   32 minutes ago   250MB
+foodie/sportnodrustvo   tagname   c471660429c1   32 minutes ago   250MB
+<none>                  <none>    fa979198e0bd   52 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name prvi-portnodrustvo-container sportnodrustvo3am:latest
+Unable to find image 'sportnodrustvo3am:latest' locally
+docker: Error response from daemon: pull access denied for sportnodrustvo3am, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker build -t sportnodrustvo:latest .
+2024/02/16 02:59:52 http2: server: error reading preface from client //./pipe/docker_engine: file has already been closed
+[+] Building 8.2s (18/18) FINISHED                                                                       docker:default
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 595B                                                                               0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:6.0                                                  0.2s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:6.0                                               0.2s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:894c9f49ae9a72b64e61ef6071a33b6b616d0cf48ef25c83c4  0.0s
+ => [build 1/7] FROM mcr.microsoft.com/dotnet/sdk:6.0@sha256:fdac9ba57a38ffaa6494b93de33983644c44d9e491e4e312f35d  0.0s
+ => [internal] load build context                                                                                  0.1s
+ => => transferring context: 96.08kB                                                                               0.1s
+ => CACHED [build 2/7] WORKDIR /src                                                                                0.0s
+ => CACHED [build 3/7] COPY [sportnoDrustvo.csproj, ./]                                                            0.0s
+ => CACHED [build 4/7] RUN dotnet restore "sportnoDrustvo.csproj"                                                  0.0s
+ => [build 5/7] COPY . .                                                                                           0.4s
+ => [build 6/7] WORKDIR /src                                                                                       0.1s
+ => [build 7/7] RUN dotnet build "sportnoDrustvo.csproj" -c Release -o /app/build                                  4.8s
+ => [publish 1/1] RUN dotnet publish "sportnoDrustvo.csproj" -c Release -o /app/publish                            2.4s
+ => CACHED [base 2/2] WORKDIR /app                                                                                 0.0s
+ => CACHED [final 1/2] WORKDIR /app                                                                                0.0s
+ => CACHED [final 2/2] COPY --from=publish /app/publish .                                                          0.0s
+ => exporting to image                                                                                             0.0s
+ => => exporting layers                                                                                            0.0s
+ => => writing image sha256:c471660429c17270e3a88f8dfe48fdbb9b54a94acdcf066aa213582c94d60069                       0.0s
+ => => naming to docker.io/library/sportnodrustvo:latest                                                           0.0s
+
+View build details: docker-desktop://dashboard/build/default/default/4htistq3gpyvknu9kjwov8ypp
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name 3amportnodrustvo-container sportnodrustvo:latest
+002412558e5434bee9dbe6bb0d5ebb3f0647f7d97eedb19c2f08d6a3f5157aad
+docker: Error response from daemon: driver failed programming external connectivity on endpoint 3amportnodrustvo-container (61035f8dd413c6a5287db8fea65349523c81f1b5d85e3de020ef3efe56e2bf76): Bind for 0.0.0.0:8080 failed: port is already allocated.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name 3amportnodrustvo-container sportnodrustvo:latest
+docker: Error response from daemon: Conflict. The container name "/3amportnodrustvo-container" is already in use by container "002412558e5434bee9dbe6bb0d5ebb3f0647f7d97eedb19c2f08d6a3f5157aad". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name 3amsportnodrustvo-container sportnodrustvo:latest
+73d23f206a1f2617fc2d9d345dae982900133f9936beb275293fa36ebe5ee37e
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+foodie/sportnodrustvo   latest    c471660429c1   34 minutes ago   250MB
+foodie/sportnodrustvo   tagname   c471660429c1   34 minutes ago   250MB
+sportnodrustvo          latest    c471660429c1   34 minutes ago   250MB
+<none>                  <none>    fa979198e0bd   54 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker build -t sportnodrustvo:latest .
+[+] Building 0.3s (18/18) FINISHED                                                                       docker:default
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 595B                                                                               0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:6.0                                                  0.2s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:6.0                                               0.1s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [build 1/7] FROM mcr.microsoft.com/dotnet/sdk:6.0@sha256:fdac9ba57a38ffaa6494b93de33983644c44d9e491e4e312f35d  0.0s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:894c9f49ae9a72b64e61ef6071a33b6b616d0cf48ef25c83c4  0.0s
+ => [internal] load build context                                                                                  0.1s
+ => => transferring context: 54.56kB                                                                               0.1s
+ => CACHED [base 2/2] WORKDIR /app                                                                                 0.0s
+ => CACHED [final 1/2] WORKDIR /app                                                                                0.0s
+ => CACHED [build 2/7] WORKDIR /src                                                                                0.0s
+ => CACHED [build 3/7] COPY [sportnoDrustvo.csproj, ./]                                                            0.0s
+ => CACHED [build 4/7] RUN dotnet restore "sportnoDrustvo.csproj"                                                  0.0s
+ => CACHED [build 5/7] COPY . .                                                                                    0.0s
+ => CACHED [build 6/7] WORKDIR /src                                                                                0.0s
+ => CACHED [build 7/7] RUN dotnet build "sportnoDrustvo.csproj" -c Release -o /app/build                           0.0s
+ => CACHED [publish 1/1] RUN dotnet publish "sportnoDrustvo.csproj" -c Release -o /app/publish                     0.0s
+ => CACHED [final 2/2] COPY --from=publish /app/publish .                                                          0.0s
+ => exporting to image                                                                                             0.0s
+ => => exporting layers                                                                                            0.0s
+ => => writing image sha256:c471660429c17270e3a88f8dfe48fdbb9b54a94acdcf066aa213582c94d60069                       0.0s
+ => => naming to docker.io/library/sportnodrustvo:latest                                                           0.0s
+
+View build details: docker-desktop://dashboard/build/default/default/5ab4yt4d84njglc75553sa12f
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name PETOsportnodrustvo-container sportnodrustvo:latest
+dbf7345b7dd5075c52c7c86bad1d8c0e04e8ecc57f8087122c64c1efb8e70753
+docker: Error response from daemon: driver failed programming external connectivity on endpoint PETOsportnodrustvo-container (c4881faddba39a862dfa935099c3a3082e880814955a368a745367b6e7111d78): Bind for 0.0.0.0:8080 failed: port is already allocated.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name PETOsportnodrustvo-container sportnodrustvo:latest
+docker: Error response from daemon: Conflict. The container name "/PETOsportnodrustvo-container" is already in use by container "dbf7345b7dd5075c52c7c86bad1d8c0e04e8ecc57f8087122c64c1efb8e70753". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -d -p 8080:80 --name SESsportnodrustvo-container sportnodrustvo:latest
+0f9448346a5b3b0fe2232b0bc1c8d4e80dce6b5b9b68f35f56002ee9c5a791bc
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+sportnodrustvo          latest    c471660429c1   37 minutes ago   250MB
+foodie/sportnodrustvo   latest    c471660429c1   37 minutes ago   250MB
+foodie/sportnodrustvo   tagname   c471660429c1   37 minutes ago   250MB
+<none>                  <none>    fa979198e0bd   57 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latestdocker push realfoodie/sportnodrustvo:tagname
+"docker push" requires exactly 1 argument.
+See 'docker push --help'.
+
+Usage:  docker push [OPTIONS] NAME[:TAG]
+
+Upload an image to a registry
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+An image does not exist locally with the tag: realfoodie/sportnodrustvo
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push foodie/sportnodrustvo:latest
+The push refers to repository [docker.io/foodie/sportnodrustvo]
+828ff6c5a9f1: Preparing
+5f70bf18a086: Preparing
+5da532612b5f: Preparing
+407a0f7a925f: Preparing
+5bb6a06c6676: Preparing
+76049aadf39b: Waiting
+a54d0098e057: Waiting
+0baf2321956a: Waiting
+denied: requested access to the resource is denied
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push sportnodrustvo:latest
+The push refers to repository [docker.io/library/sportnodrustvo]
+828ff6c5a9f1: Preparing
+5f70bf18a086: Preparing
+5da532612b5f: Preparing
+407a0f7a925f: Preparing
+5bb6a06c6676: Preparing
+76049aadf39b: Waiting
+a54d0098e057: Waiting
+0baf2321956a: Waiting
+denied: requested access to the resource is denied
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+foodie/sportnodrustvo   latest    c471660429c1   38 minutes ago   250MB
+foodie/sportnodrustvo   tagname   c471660429c1   38 minutes ago   250MB
+sportnodrustvo          latest    c471660429c1   38 minutes ago   250MB
+<none>                  <none>    fa979198e0bd   58 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+sportnodrustvo          latest    c471660429c1   38 minutes ago   250MB
+foodie/sportnodrustvo   latest    c471660429c1   38 minutes ago   250MB
+foodie/sportnodrustvo   tagname   c471660429c1   38 minutes ago   250MB
+<none>                  <none>    fa979198e0bd   58 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker run -p 8080:80 --name sportnodrustvo-container -d sportnodrustvo:latest
+db042e5dab6136e1db2d8ca584f436d43223368eb7b7c24b3d3aa6e8ce25087c
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker images
+REPOSITORY              TAG       IMAGE ID       CREATED          SIZE
+sportnodrustvo          latest    c471660429c1   39 minutes ago   250MB
+foodie/sportnodrustvo   latest    c471660429c1   39 minutes ago   250MB
+foodie/sportnodrustvo   tagname   c471660429c1   39 minutes ago   250MB
+<none>                  <none>    fa979198e0bd   59 minutes ago   254MB
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker ps
+CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS          PORTS                           NAMES
+db042e5dab61   sportnodrustvo:latest   "dotnet sportnoDrust…"   22 seconds ago   Up 21 seconds   443/tcp, 0.0.0.0:8080->80/tcp   sportnodrustvo-container
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker pull sportnodrustvo:latest
+Error response from daemon: pull access denied for sportnodrustvo, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker build -t realfoodie/sportnodrustvo:latest .
+2024/02/16 03:09:23 http2: server: error reading preface from client //./pipe/docker_engine: file has already been closed
+[+] Building 0.5s (18/18) FINISHED                                                                       docker:default
+ => [internal] load build definition from Dockerfile                                                               0.0s
+ => => transferring dockerfile: 595B                                                                               0.0s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:6.0                                                  0.3s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:6.0                                               0.3s
+ => [internal] load .dockerignore                                                                                  0.0s
+ => => transferring context: 2B                                                                                    0.0s
+ => [build 1/7] FROM mcr.microsoft.com/dotnet/sdk:6.0@sha256:fdac9ba57a38ffaa6494b93de33983644c44d9e491e4e312f35d  0.0s
+ => [base 1/2] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:894c9f49ae9a72b64e61ef6071a33b6b616d0cf48ef25c83c4  0.0s
+ => [internal] load build context                                                                                  0.1s
+ => => transferring context: 54.56kB                                                                               0.1s
+ => CACHED [base 2/2] WORKDIR /app                                                                                 0.0s
+ => CACHED [final 1/2] WORKDIR /app                                                                                0.0s
+ => CACHED [build 2/7] WORKDIR /src                                                                                0.0s
+ => CACHED [build 3/7] COPY [sportnoDrustvo.csproj, ./]                                                            0.0s
+ => CACHED [build 4/7] RUN dotnet restore "sportnoDrustvo.csproj"                                                  0.0s
+ => CACHED [build 5/7] COPY . .                                                                                    0.0s
+ => CACHED [build 6/7] WORKDIR /src                                                                                0.0s
+ => CACHED [build 7/7] RUN dotnet build "sportnoDrustvo.csproj" -c Release -o /app/build                           0.0s
+ => CACHED [publish 1/1] RUN dotnet publish "sportnoDrustvo.csproj" -c Release -o /app/publish                     0.0s
+ => CACHED [final 2/2] COPY --from=publish /app/publish .                                                          0.0s
+ => exporting to image                                                                                             0.0s
+ => => exporting layers                                                                                            0.0s
+ => => writing image sha256:c471660429c17270e3a88f8dfe48fdbb9b54a94acdcf066aa213582c94d60069                       0.0s
+ => => naming to docker.io/realfoodie/sportnodrustvo:latest                                                        0.0s
+
+View build details: docker-desktop://dashboard/build/default/default/jler23qsjjf5slliker7i1qcg
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker login
+Authenticating with existing credentials...
+Login Succeeded
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker tag sportnodrustvo realfoodie/sportnodrustvo:latest
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+828ff6c5a9f1: Retrying in 1 second
+5f70bf18a086: Pushed
+5da532612b5f: Pushed
+407a0f7a925f: Pushed
+5bb6a06c6676: Pushed
+76049aadf39b: Pushing [==================================================>]  70.83MB
+a54d0098e057: Retrying in 1 second
+0baf2321956a: Pushing [==================================================>]  84.17MB
+dialing registry-1.docker.io:443 container via direct connection because  has no HTTPS proxy: connecting to 54.227.20.253:443: dial tcp 54.227.20.253:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+Get "https://registry-1.docker.io/v2/": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker tag sportnodrustvo realfoodie/sportnodrustvo:latest
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>docker push realfoodie/sportnodrustvo:latest
+The push refers to repository [docker.io/realfoodie/sportnodrustvo]
+828ff6c5a9f1: Pushed
+5f70bf18a086: Layer already exists
+5da532612b5f: Layer already exists
+407a0f7a925f: Layer already exists
+5bb6a06c6676: Layer already exists
+76049aadf39b: Pushed
+a54d0098e057: Pushed
+0baf2321956a: Layer already exists
+latest: digest: sha256:4d134141a6e053fe080edb3a1fd8699909b6f011747600a298f45dbbf923e4f6 size: 1995
+
+C:\Users\david\Documents\GitHub\sportnoDrustvo>
