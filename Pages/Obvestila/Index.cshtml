@@ -1,0 +1,28 @@
+﻿@page
+@model sportnoDrustvo.Pages.Obvestila.IndexModel
+
+<h2>Seznam Obvestil</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Termin</th>
+            <th>Obveščanje</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Obvestilo)
+        {
+            <tr>
+                <td>@item.Termin.ImeEkipe</td>
+                <td>@item.Obvescanje</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Uredi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Dodaj Novo Obvestilo</a>

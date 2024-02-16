@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+
+<h1>Seznam Terminov</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ime Ekipe</th>
+            <th>Datum Termina</th>
+            <th>Max Udeležencev</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Termin)
+        {
+            <tr>
+                <td>@item.ImeEkipe</td>
+                <td>@item.DatumTermina.ToShortDateString()</td>
+                <td>@item.MaxUdelezencev</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Uredi</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Podrobnosti</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Izbriši</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create">Dodaj Nov Termin</a>

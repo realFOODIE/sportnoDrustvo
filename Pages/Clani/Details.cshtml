@@ -1,0 +1,25 @@
+﻿@page
+@model sportnoDrustvo.Pages.Clani.DetailsModel
+
+<h2>Podrobnosti Člana</h2>
+
+<div>
+    <h4>Član</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Clan.Ime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Clan.Ime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Clan.Priimek)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Clan.Priimek)
+        </dd>
+    </dl>
+</div>
+<a asp-page="./Edit" asp-route-id="@Model.Clan.Id" class="btn btn-primary">Uredi</a>
+<a asp-page="./Index" class="btn btn-secondary">Nazaj na seznam</a>

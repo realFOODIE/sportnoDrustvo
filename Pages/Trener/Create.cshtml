@@ -1,0 +1,19 @@
+﻿@page
+@model sportnoDrustvo.Pages.Trenerji.CreateModel
+
+<h2>Dodaj Novega Trener</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Trener.Ime" class="control-label"></label>
+        <input asp-for="Trener.Ime" class="form-control" />
+        <span asp-validation-for="Trener.Ime" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Trener.Specializacija" class="control-label"></label>
+        <input asp-for="Trener.Specializacija" class="form-control" />
+        <span asp-validation-for="Trener.Specializacija" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Shrani</button>
+    <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>

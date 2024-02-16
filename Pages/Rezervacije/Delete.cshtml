@@ -1,0 +1,18 @@
+﻿@page
+@model sportnoDrustvo.Pages.Rezervacije.DeleteModel
+
+<h2>Izbriši Rezervacijo</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Rezervacija.Id" />
+    <div>
+        <h4>Ali ste prepričani, da želite izbrisati to rezervacijo?</h4>
+        <div>
+            <p><strong>Termin:</strong> @Model.Rezervacija.Termin.ImeEkipe</p>
+            <p><strong>Član:</strong> @Model.Rezervacija.Clan.Ime @Model.Rezervacija.Clan.Priimek</p>
+            <p><strong>Datum Rezervacije:</strong> @Model.Rezervacija.DatumRezervacije.ToString("dd.MM.yyyy HH:mm")</p>
+        </div>
+        <button type="submit" class="btn btn-danger">Izbriši</button>
+        <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>
+</div>

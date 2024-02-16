@@ -1,0 +1,32 @@
+﻿@page
+@model sportnoDrustvo.Pages.Rekviziti.IndexModel
+
+<h2>Seznam Rekvizitov</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Je na voljo</th>
+            <th>Član</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Rekvizit)
+        {
+            <tr>
+                <td>@item.Ime</td>
+                <td>@item.JeNaVoljo</td>
+                <td>@item.Clan?.Ime @item.Clan?.Priimek</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Uredi</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Podrobnosti</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Izbriši</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Dodaj Nov Rekvizit</a>

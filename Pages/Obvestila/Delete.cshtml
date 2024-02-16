@@ -1,0 +1,17 @@
+﻿@page
+@model sportnoDrustvo.Pages.Obvestila.DeleteModel
+
+<h2>Izbriši Obvestilo</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Obvestilo.Id" />
+    <div>
+        <h4>Ali ste prepričani, da želite izbrisati to obvestilo?</h4>
+        <div>
+            <p><strong>Termin:</strong> @Model.Obvestilo.Termin.ImeEkipe</p>
+            <p><strong>Obveščanje:</strong> @Model.Obvestilo.Obvescanje</p>
+        </div>
+        <button type="submit" class="btn btn-danger">Izbriši</button>
+        <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>
+</div>

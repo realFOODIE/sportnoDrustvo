@@ -1,0 +1,31 @@
+﻿@page
+@model sportnoDrustvo.Pages.Termini.EditModel
+
+<h2>Uredi Termin</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Termin.Id" />
+    <div class="form-group">
+        <label asp-for="Termin.ImeEkipe" class="control-label"></label>
+        <input asp-for="Termin.ImeEkipe" class="form-control" />
+        <span asp-validation-for="Termin.ImeEkipe" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Termin.DatumTermina" class="control-label"></label>
+        <input asp-for="Termin.DatumTermina" class="form-control" type="datetime-local" />
+        <span asp-validation-for="Termin.DatumTermina" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Termin.MaxUdelezencev" class="control-label"></label>
+        <input asp-for="Termin.MaxUdelezencev" class="form-control" type="number" />
+        <span asp-validation-for="Termin.MaxUdelezencev" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Shrani Spremembe</button>
+    <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>
+
+
+
+
+
+

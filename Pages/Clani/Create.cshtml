@@ -1,0 +1,19 @@
+﻿@page
+@model sportnoDrustvo.Pages.Clani.CreateModel
+
+<h2>Dodaj Novega Člana</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Clan.Ime" class="control-label"></label>
+        <input asp-for="Clan.Ime" class="form-control" />
+        <span asp-validation-for="Clan.Ime" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Clan.Priimek" class="control-label"></label>
+        <input asp-for="Clan.Priimek" class="form-control" />
+        <span asp-validation-for="Clan.Priimek" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Shrani</button>
+    <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>

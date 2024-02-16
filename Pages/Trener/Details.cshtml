@@ -1,0 +1,25 @@
+﻿@page
+@model sportnoDrustvo.Pages.Trenerji.DetailsModel
+
+<h2>Podrobnosti Trenerja</h2>
+
+<div>
+    <h4>Trener</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Trener.Ime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Trener.Ime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Trener.Specializacija)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Trener.Specializacija)
+        </dd>
+    </dl>
+</div>
+<a asp-page="./Edit" asp-route-id="@Model.Trener.Id" class="btn btn-primary">Uredi</a>
+<a asp-page="./Index" class="btn btn-secondary">Nazaj na seznam</a>

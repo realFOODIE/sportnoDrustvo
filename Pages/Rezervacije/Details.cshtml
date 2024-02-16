@@ -1,0 +1,21 @@
+﻿@page
+@model sportnoDrustvo.Pages.Rezervacije.DetailsModel
+
+<h2>Podrobnosti Rezervacije</h2>
+
+<div>
+    <h4>Rezervacija</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Termin</dt>
+        <dd class="col-sm-10">@Model.Rezervacija.Termin.ImeEkipe</dd>
+
+        <dt class="col-sm-2">Član</dt>
+        <dd class="col-sm-10">@Model.Rezervacija.Clan.Ime @Model.Rezervacija.Clan.Priimek</dd>
+
+        <dt class="col-sm-2">Datum Rezervacije</dt>
+        <dd class="col-sm-10">@Model.Rezervacija.DatumRezervacije.ToString("dd.MM.yyyy HH:mm")</dd>
+    </dl>
+</div>
+<a asp-page="./Edit" asp-route-id="@Model.Rezervacija.Id" class="btn btn-primary">Uredi</a>
+<a asp-page="./Index" class="btn btn-secondary">Nazaj na seznam</a>

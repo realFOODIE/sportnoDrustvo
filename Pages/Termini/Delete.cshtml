@@ -1,0 +1,36 @@
+﻿@page
+@model sportnoDrustvo.Pages.Termini.DeleteModel
+
+<h2>Izbriši Termin</h2>
+
+<h3>Ali ste prepričani, da želite izbrisati ta termin?</h3>
+<div>
+    <h4>Termin</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Termin.ImeEkipe)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Termin.ImeEkipe)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Termin.DatumTermina)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Termin.DatumTermina)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Termin.MaxUdelezencev)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Termin.MaxUdelezencev)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="Termin.Id" />
+        <button type="submit" class="btn btn-danger">Izbriši</button>
+        <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+    </form>
+</div>

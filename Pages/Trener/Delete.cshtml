@@ -1,0 +1,17 @@
+﻿@page
+@model sportnoDrustvo.Pages.Trenerji.DeleteModel
+
+<h2>Izbriši Trenerja</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Trener.Id" />
+    <div>
+        <h4>Ali ste prepričani, da želite izbrisati tega trenerja?</h4>
+        <div>
+            <p><strong>Ime:</strong> @Model.Trener.Ime</p>
+            <p><strong>Specializacija:</strong> @Model.Trener.Specializacija</p>
+        </div>
+        <button type="submit" class="btn btn-danger">Izbriši</button>
+        <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>
+</div>

@@ -1,0 +1,32 @@
+﻿@page
+@model sportnoDrustvo.Pages.Rezervacije.IndexModel
+
+<h2>Seznam Rezervacij</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Termin</th>
+            <th>Član</th>
+            <th>Datum Rezervacije</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Rezervacija)
+        {
+            <tr>
+                <td>@item.Termin.ImeEkipe</td>
+                <td>@item.Clan.Ime @item.Clan.Priimek</td>
+                <td>@item.DatumRezervacije.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Uredi</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Podrobnosti</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Izbriši</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Dodaj Novo Rezervacijo</a>

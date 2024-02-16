@@ -1,0 +1,31 @@
+﻿@page
+@model sportnoDrustvo.Pages.Termini.DetailsModel
+
+<h2>Podrobnosti Termina</h2>
+
+<div>
+    <h4>Termin</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Termin.ImeEkipe)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Termin.ImeEkipe)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Termin.DatumTermina)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Termin.DatumTermina)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Termin.MaxUdelezencev)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Termin.MaxUdelezencev)
+        </dd>
+    </dl>
+</div>
+<a asp-page="./Edit" asp-route-id="@Model.Termin.Id" class="btn btn-primary">Uredi</a>
+<a asp-page="./Index" class="btn btn-secondary">Nazaj na seznam</a>

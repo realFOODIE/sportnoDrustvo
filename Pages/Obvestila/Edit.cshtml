@@ -1,0 +1,21 @@
+﻿@page
+@model sportnoDrustvo.Pages.Obvestila.EditModel
+
+<h2>Uredi Obvestilo</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Obvestilo.Id" />
+    <div class="form-group">
+        <label asp-for="Obvestilo.TerminId" class="control-label"></label>
+        <select asp-for="Obvestilo.TerminId" class="form-control" asp-items="ViewBag.TerminId"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Obvestilo.Obvescanje" class="control-label"></label>
+        <select asp-for="Obvestilo.Obvescanje" class="form-control">
+            <option value="true">Da</option>
+            <option value="false">Ne</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Shrani Spremembe</button>
+    <a asp-page="./Index" class="btn btn-secondary">Prekliči</a>
+</form>

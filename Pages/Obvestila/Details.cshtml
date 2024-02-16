@@ -1,0 +1,25 @@
+﻿@page
+@model sportnoDrustvo.Pages.Obvestila.DetailsModel
+
+<h2>Podrobnosti Obvestila</h2>
+
+<div>
+    <h4>Obvestilo</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Termin
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Obvestilo.Termin.ImeEkipe
+        </dd>
+        <dt class="col-sm-2">
+            Obveščanje
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Obvestilo.Obvescanje
+        </dd>
+    </dl>
+</div>
+<a asp-page="./Edit" asp-route-id="@Model.Obvestilo.Id" class="btn btn-primary">Uredi</a>
+<a asp-page="./Index" class="btn btn-secondary">Nazaj na seznam</a>

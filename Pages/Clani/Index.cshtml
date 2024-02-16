@@ -1,0 +1,30 @@
+﻿@page
+@model sportnoDrustvo.Pages.Clani.IndexModel
+
+<h2>Seznam Članov</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Priimek</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Clani)
+        {
+            <tr>
+                <td>@item.Ime</td>
+                <td>@item.Priimek</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Uredi</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Podrobnosti</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Izbriši</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Dodaj Nov Član</a>

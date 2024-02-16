@@ -1,0 +1,28 @@
+﻿@page
+@model sportnoDrustvo.Pages.Trenerji.IndexModel
+
+<h2>Seznam Trenerjev</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ime</th>
+            <th>Specializacija</th>
+            <th>Akcije</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Trener)
+        {
+            <tr>
+                <td>@item.Ime</td>
+                <td>@item.Specializacija</td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Uredi</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Dodaj Nov Trener</a>
