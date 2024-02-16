@@ -15,7 +15,7 @@ RUN dotnet build "sportnoDrustvo.csproj" -c Release -o /app/build
 
 FROM build AS publish
 RUN dotnet publish "sportnoDrustvo.csproj" -c Release -o /app/publish
-# add to basee
+# add to base
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
