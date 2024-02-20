@@ -16,7 +16,7 @@ namespace sportnoDrustvo.Classes
             //done
         }
 
-        // Definicija modela Obvestilo
+        //definicija modela obbv.
         public class Obvestilo
         {
             public int Id { get; set; }
@@ -26,7 +26,7 @@ namespace sportnoDrustvo.Classes
             //done
         }
 
-        // Definicija modela Rekvizit
+        //definicija modela rekvizit
         public class Rekvizit
         {
             public int Id { get; set; }
@@ -38,7 +38,7 @@ namespace sportnoDrustvo.Classes
 
         }
 
-        // Definicija modela Trener
+        //definicija modela trener
         public class Trener
         {
             public int Id { get; set; }

@@ -1,10 +1,8 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Threading.Tasks;
 using sportnoDrustvo.Classes;
-using System.Threading.Tasks;
 using static sportnoDrustvo.Classes.Models;
-
 
 namespace sportnoDrustvo.Pages.Clani
 {
@@ -32,10 +30,10 @@ namespace sportnoDrustvo.Pages.Clani
                 return Page();
             }
 
-            _context.Clani.Add(Clan);
-            await _context.SaveChangesAsync();
+            _context.Clani.Add(Clan); //doda nov član v bazo
+            await _context.SaveChangesAsync(); //asinhrono shrani spremembe
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Index"); //preusmeri na seznam članov
         }
     }
 }

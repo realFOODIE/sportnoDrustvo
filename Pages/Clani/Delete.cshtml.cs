@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using sportnoDrustvo.Classes;
@@ -25,13 +25,13 @@ namespace sportnoDrustvo.Pages.Clani
                 return NotFound();
             }
 
-            Clan = await _context.Clani.FirstOrDefaultAsync(m => m.Id == id);
+            Clan = await _context.Clani.FirstOrDefaultAsync(m => m.Id == id); //poišče člana za brisanje
 
             if (Clan == null)
             {
-                return NotFound();
+                return NotFound(); //če član ne obstaja, vrne NotFound
             }
-            return Page();
+            return Page(); //prikaže stran za potrditev brisanja
         }
 
         public async Task<IActionResult> OnPostAsync(int? id)
@@ -41,15 +41,15 @@ namespace sportnoDrustvo.Pages.Clani
                 return NotFound();
             }
 
-            Clan = await _context.Clani.FindAsync(id);
+            Clan = await _context.Clani.FindAsync(id); //poišče člana po ID
 
             if (Clan != null)
             {
-                _context.Clani.Remove(Clan);
-                await _context.SaveChangesAsync();
+                _context.Clani.Remove(Clan); //odstrani člana iz baze
+                await _context.SaveChangesAsync(); //shrani spremembe
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Index"); //preusmeri nazaj na seznam članov
         }
     }
 }

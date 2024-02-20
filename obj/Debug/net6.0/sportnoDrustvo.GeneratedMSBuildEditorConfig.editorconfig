@@ -9,159 +9,159 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sportnoDrustvo
 build_property.RootNamespace = sportnoDrustvo
-build_property.ProjectDir = C:\Users\matic\Desktop\ajnikRGISslave\sportnodrustvo\
+build_property.ProjectDir = C:\Users\david\Documents\GitHub\sportnoDrustvo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\matic\Desktop\ajnikRGISslave\sportnodrustvo
+build_property.MSBuildProjectDirectory = C:\Users\david\Documents\GitHub\sportnoDrustvo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Clani/Create.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Clani/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhbmlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Clani/Delete.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Clani/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhbmlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Clani/Details.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Clani/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhbmlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Clani/Edit.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Clani/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhbmlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Clani/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Clani/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhbmlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Error.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Obvestila/Create.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Obvestila/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2J2ZXN0aWxhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Obvestila/Delete.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Obvestila/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2J2ZXN0aWxhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Obvestila/Details.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Obvestila/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2J2ZXN0aWxhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Obvestila/Edit.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Obvestila/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2J2ZXN0aWxhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Obvestila/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Obvestila/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2J2ZXN0aWxhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Privacy.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rekvizit/Create.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rekvizit/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVrdml6aXRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rekvizit/Delete.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rekvizit/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVrdml6aXRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rekvizit/Details.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rekvizit/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVrdml6aXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rekvizit/Edit.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rekvizit/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVrdml6aXRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rekvizit/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rekvizit/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVrdml6aXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rezervacije/Create.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rezervacije/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2YWNpamVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rezervacije/Delete.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rezervacije/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2YWNpamVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rezervacije/Details.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rezervacije/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2YWNpamVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rezervacije/Edit.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rezervacije/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2YWNpamVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Rezervacije/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Rezervacije/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV6ZXJ2YWNpamVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Termini/Create.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Termini/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybWluaVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Termini/Delete.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Termini/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybWluaVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Termini/Details.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Termini/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybWluaVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Termini/Edit.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Termini/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybWluaVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Termini/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Termini/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybWluaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Trener/Create.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Trener/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlbmVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Trener/Delete.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Trener/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlbmVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Trener/Details.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Trener/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlbmVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Trener/Edit.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Trener/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlbmVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Trener/Index.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Trener/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlbmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/_ViewImports.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/_ViewStart.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/matic/Desktop/ajnikRGISslave/sportnodrustvo/Pages/Shared/_Layout.cshtml]
+[C:/Users/david/Documents/GitHub/sportnoDrustvo/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sxlyiaw7f6

@@ -20,8 +20,7 @@ namespace sportnoDrustvo.Pages.Rekviziti
         public async Task OnGetAsync()
         {
             Rekvizit = await _context.Rekviziti
-                .Include(r => r.Clan) // Če želite prikazati informacije o članu, ki je izposodil rekvizit
-                .ToListAsync();
+                .Include(r => r.Clan).ToListAsync();
         }
     }
 }

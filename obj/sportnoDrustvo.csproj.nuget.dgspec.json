@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matic\\Desktop\\ajnikRGISslave\\sportnodrustvo\\sportnoDrustvo.csproj": {}
+    "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matic\\Desktop\\ajnikRGISslave\\sportnodrustvo\\sportnoDrustvo.csproj": {
+    "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matic\\Desktop\\ajnikRGISslave\\sportnodrustvo\\sportnoDrustvo.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvo.csproj",
         "projectName": "sportnoDrustvo",
-        "projectPath": "C:\\Users\\matic\\Desktop\\ajnikRGISslave\\sportnodrustvo\\sportnoDrustvo.csproj",
-        "packagesPath": "C:\\Users\\matic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matic\\Desktop\\ajnikRGISslave\\sportnodrustvo\\obj\\",
+        "projectPath": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvo.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\matic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             }
           },
           "imports": [
@@ -89,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
