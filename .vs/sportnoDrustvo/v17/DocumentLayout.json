@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC59C760-6008-452D-8F01-755B0E1004AC}|sportnoDrustvoTests\\sportnoDrustvoTests.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\sportnodrustvotests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC59C760-6008-452D-8F01-755B0E1004AC}|sportnoDrustvoTests\\sportnoDrustvoTests.csproj|solutionrelative:sportnodrustvotests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\controllers\\termincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:controllers\\termincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,9 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\controllers\\clancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:controllers\\clancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA82F964-630F-45DA-B3C3-F8AC31B07D91}|..\\spotnoDrustvoTests\\spotnoDrustvoTests.csproj|c:\\users\\david\\documents\\github\\spotnodrustvotests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\rezervacije\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,8 +118,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvoTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "sportnoDrustvoTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvoTests\\UnitTest1.cs",
+              "RelativeToolTip": "sportnoDrustvoTests\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T23:12:38.608Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -157,18 +171,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\spotnoDrustvoTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\spotnoDrustvoTests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\spotnoDrustvoTests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\spotnoDrustvoTests\\UnitTest1.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAIwKAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.815Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Rekvizit\\Delete.cshtml.cs",
@@ -181,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ClanController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\ClanController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClanController.cs",
@@ -193,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ObvestiloController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\ObvestiloController.cs",
               "RelativeDocumentMoniker": "Controllers\\ObvestiloController.cs",
@@ -205,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RekvizitController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\RekvizitController.cs",
               "RelativeDocumentMoniker": "Controllers\\RekvizitController.cs",
@@ -217,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RezervacijaController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\RezervacijaController.cs",
               "RelativeDocumentMoniker": "Controllers\\RezervacijaController.cs",
@@ -229,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TerminController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\TerminController.cs",
               "RelativeDocumentMoniker": "Controllers\\TerminController.cs",
@@ -242,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TrenerController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\TrenerController.cs",
               "RelativeDocumentMoniker": "Controllers\\TrenerController.cs",
