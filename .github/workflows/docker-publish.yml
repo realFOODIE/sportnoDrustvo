@@ -34,4 +34,7 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: realfoodie/sportnodrustvo:latest
+              realfoodie/sportnodrustvo:${{ github.sha }} # oznako trenutnega commita
       #cetrti korak: Zgradi Docker sliko na podlagi Dockerfile v trenutnem kontekstu (.) in jo nato potisni (push) na Docker Hub z oznako 'latest'.
+      
+    
