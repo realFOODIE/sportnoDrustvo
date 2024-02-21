@@ -1,24 +1,31 @@
 name: Docker Build and Push
+#ime delovnega toka, ki se prikaže v GitHub Actions.
 
 on:
   push:
     branches: [main]
+#delovni tok se sproži ob vsakem pushu (nalaganju sprememb) na glavno vejo (main).
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    #job 'build-and-push' se izvaja na najnovejši različici Ubuntu.
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      #prvi korak: Pridobi (checkout) kodo iz repozitorija, da jo lahko delovni tok uporabi.
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
+      #drugi korak: Nastavi Docker Buildx, ki je razširitev Dockerja za podporo gradnje multi-platformskih slik.
 
     - name: Login to Docker Hub
       uses: docker/login-action@v1
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+      #tretji korak: Prijavi se v Docker Hub z uporabo uporabniškega imena in gesla, ki sta shranjena kot skrivnosti (secrets) v GitHubu.
 
     - name: Build and push
       uses: docker/build-push-action@v2
@@ -27,3 +34,4 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: realfoodie/sportnodrustvo:latest
+      #cetrti korak: Zgradi Docker sliko na podlagi Dockerfile v trenutnem kontekstu (.) in jo nato potisni (push) na Docker Hub z oznako 'latest'.

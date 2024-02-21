@@ -3,9 +3,8 @@ d965f208683615e6c2d2b90ebafa5ed2d5dd5d7bb4597d2097bfa8914d237c66
 
 #ukaz za reslikavo vrat je zgoraj
 
-
-
-
+docker rename sportnodrustvo-container sportnodrustvo-container-old
+docker ps
 
 
 Microsoft Windows [Version 10.0.19045.4046]
