@@ -242,3 +242,5 @@ C:\Users\david\Documents\GitHub\sportnoDrustvo\obj\Debug\net6.0\refint\sportnoDr
 C:\Users\david\Documents\GitHub\sportnoDrustvo\obj\Debug\net6.0\sportnoDrustvo.pdb
 C:\Users\david\Documents\GitHub\sportnoDrustvo\obj\Debug\net6.0\sportnoDrustvo.genruntimeconfig.cache
 C:\Users\david\Documents\GitHub\sportnoDrustvo\obj\Debug\net6.0\ref\sportnoDrustvo.dll
+C:\Users\david\Documents\GitHub\sportnoDrustvo\bin\Debug\net6.0\sportnoDrustvoTests\obj\project.assets.json
+C:\Users\david\Documents\GitHub\sportnoDrustvo\bin\Debug\net6.0\sportnoDrustvoTests\obj\sportnoDrustvoTests.csproj.nuget.dgspec.json

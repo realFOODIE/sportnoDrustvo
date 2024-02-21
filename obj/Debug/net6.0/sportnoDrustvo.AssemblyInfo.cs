@@ -11,11 +11,10 @@
 using System;
 using System.Reflection;
 
-
 [assembly: System.Reflection.AssemblyCompanyAttribute("sportnoDrustvo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f3ee8244ff03fdda0940112ae92f7b7a9d35471")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fffb6be59d2bf8de87882c92dbd2c2311c051a29")]
 [assembly: System.Reflection.AssemblyProductAttribute("sportnoDrustvo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sportnoDrustvo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

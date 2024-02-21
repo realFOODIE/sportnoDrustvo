@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC59C760-6008-452D-8F01-755B0E1004AC}|sportnoDrustvoTests\\sportnoDrustvoTests.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\sportnodrustvotests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC59C760-6008-452D-8F01-755B0E1004AC}|sportnoDrustvoTests\\sportnoDrustvoTests.csproj|solutionrelative:sportnodrustvotests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\obj\\debug\\net6.0\\sportnodrustvo.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:obj\\debug\\net6.0\\sportnodrustvo.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\obj\\debug\\net6.0\\.netcoreapp,version=v6.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:obj\\debug\\net6.0\\.netcoreapp,version=v6.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\rekvizit\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:pages\\rekvizit\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\controllers\\termincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:controllers\\clancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\rezervacije\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:pages\\rezervacije\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\rekvizit\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:pages\\rekvizit\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\obvestila\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:pages\\obvestila\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\rekvizit\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|solutionrelative:pages\\rekvizit\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C36DED4C-BAEE-44E3-BBAF-6026BB5D3D25}|sportnoDrustvo.csproj|c:\\users\\david\\documents\\github\\sportnodrustvo\\pages\\rekvizit\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,43 +123,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvoTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "sportnoDrustvoTests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\sportnoDrustvoTests\\UnitTest1.cs",
-              "RelativeToolTip": "sportnoDrustvoTests\\UnitTest1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "sportnoDrustvo.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\obj\\Debug\\net6.0\\sportnoDrustvo.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net6.0\\sportnoDrustvo.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\obj\\Debug\\net6.0\\sportnoDrustvo.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net6.0\\sportnoDrustvo.AssemblyInfo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T23:12:38.608Z",
+              "WhenOpened": "2024-02-21T02:07:33.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Rezervacije\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Rezervacije\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Rezervacije\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\Rezervacije\\Create.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": ".NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\obj\\Debug\\net6.0\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net6.0\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\obj\\Debug\\net6.0\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net6.0\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.749Z"
+              "WhenOpened": "2024-02-21T02:07:31.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Rekvizit\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Rekvizit\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Rekvizit\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Rekvizit\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.807Z"
+              "WhenOpened": "2024-02-20T22:49:52.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Obvestila\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Obvestila\\Delete.cshtml.cs",
@@ -167,11 +169,12 @@
               "RelativeToolTip": "Pages\\Obvestila\\Delete.cshtml.cs",
               "ViewState": "AQIAABcAAAAAAAAAAADwvzwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.81Z"
+              "WhenOpened": "2024-02-20T22:49:52.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Rekvizit\\Delete.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Rekvizit\\Delete.cshtml.cs",
@@ -179,11 +182,12 @@
               "RelativeToolTip": "Pages\\Rekvizit\\Delete.cshtml.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAADwvzoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.817Z"
+              "WhenOpened": "2024-02-20T22:49:52.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ClanController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\ClanController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClanController.cs",
@@ -191,11 +195,12 @@
               "RelativeToolTip": "Controllers\\ClanController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.819Z"
+              "WhenOpened": "2024-02-20T22:49:52.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ObvestiloController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\ObvestiloController.cs",
               "RelativeDocumentMoniker": "Controllers\\ObvestiloController.cs",
@@ -203,11 +208,12 @@
               "RelativeToolTip": "Controllers\\ObvestiloController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.822Z"
+              "WhenOpened": "2024-02-20T22:49:52.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RekvizitController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\RekvizitController.cs",
               "RelativeDocumentMoniker": "Controllers\\RekvizitController.cs",
@@ -215,11 +221,12 @@
               "RelativeToolTip": "Controllers\\RekvizitController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.824Z"
+              "WhenOpened": "2024-02-20T22:49:52.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RezervacijaController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\RezervacijaController.cs",
               "RelativeDocumentMoniker": "Controllers\\RezervacijaController.cs",
@@ -227,11 +234,12 @@
               "RelativeToolTip": "Controllers\\RezervacijaController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.826Z"
+              "WhenOpened": "2024-02-20T22:49:52.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TerminController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\TerminController.cs",
               "RelativeDocumentMoniker": "Controllers\\TerminController.cs",
@@ -244,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TrenerController.cs",
               "DocumentMoniker": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Controllers\\TrenerController.cs",
               "RelativeDocumentMoniker": "Controllers\\TrenerController.cs",
@@ -252,7 +260,8 @@
               "RelativeToolTip": "Controllers\\TrenerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.831Z"
+              "WhenOpened": "2024-02-20T22:49:52.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -264,7 +273,8 @@
               "RelativeToolTip": "Pages\\Rekvizit\\Edit.cshtml.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAADwv0IAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.833Z"
+              "WhenOpened": "2024-02-20T22:49:52.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -276,7 +286,8 @@
               "RelativeToolTip": "Pages\\Rekvizit\\Details.cshtml.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAADwvycAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.836Z"
+              "WhenOpened": "2024-02-20T22:49:52.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -288,7 +299,8 @@
               "RelativeToolTip": "Pages\\Rekvizit\\Create.cshtml.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAiwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.839Z"
+              "WhenOpened": "2024-02-20T22:49:52.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -300,7 +312,8 @@
               "RelativeToolTip": "Pages\\Obvestila\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.841Z"
+              "WhenOpened": "2024-02-20T22:49:52.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -312,7 +325,8 @@
               "RelativeToolTip": "Pages\\Obvestila\\Edit.cshtml.cs",
               "ViewState": "AQIAACMAAAAAAAAAAADwv0gAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.844Z"
+              "WhenOpened": "2024-02-20T22:49:52.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -324,7 +338,8 @@
               "RelativeToolTip": "Pages\\Obvestila\\Details.cshtml.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvygAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.846Z"
+              "WhenOpened": "2024-02-20T22:49:52.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -336,7 +351,8 @@
               "RelativeToolTip": "Pages\\Obvestila\\Create.cshtml.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAADwvygAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.849Z"
+              "WhenOpened": "2024-02-20T22:49:52.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -348,7 +364,8 @@
               "RelativeToolTip": "Pages\\Clani\\Index.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.854Z"
+              "WhenOpened": "2024-02-20T22:49:52.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -358,9 +375,10 @@
               "RelativeDocumentMoniker": "Pages\\Clani\\Edit.cshtml.cs",
               "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Pages\\Clani\\Edit.cshtml.cs",
               "RelativeToolTip": "Pages\\Clani\\Edit.cshtml.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAywEEAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAADwv0EAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.857Z"
+              "WhenOpened": "2024-02-20T22:49:52.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -372,7 +390,8 @@
               "RelativeToolTip": "Pages\\Clani\\Details.cshtml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.861Z"
+              "WhenOpened": "2024-02-20T22:49:52.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -384,7 +403,8 @@
               "RelativeToolTip": "Pages\\Clani\\Delete.cshtml.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAkwDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.864Z"
+              "WhenOpened": "2024-02-20T22:49:52.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -396,7 +416,8 @@
               "RelativeToolTip": "Pages\\Clani\\Create.cshtml.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAuwB0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.867Z"
+              "WhenOpened": "2024-02-20T22:49:52.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -408,7 +429,8 @@
               "RelativeToolTip": "Pages\\Clani\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-20T22:49:52.869Z"
+              "WhenOpened": "2024-02-20T22:49:52.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -418,9 +440,10 @@
               "RelativeDocumentMoniker": "Classes\\Models.cs",
               "ToolTip": "C:\\Users\\david\\Documents\\GitHub\\sportnoDrustvo\\Classes\\Models.cs",
               "RelativeToolTip": "Classes\\Models.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAowDEAAAAIAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAA7wDEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.872Z"
+              "WhenOpened": "2024-02-20T22:49:52.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -432,7 +455,8 @@
               "RelativeToolTip": "Classes\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.875Z"
+              "WhenOpened": "2024-02-20T22:49:52.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -444,7 +468,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T22:49:52.878Z"
+              "WhenOpened": "2024-02-20T22:49:52.878Z",
+              "EditorCaption": ""
             }
           ]
         }
